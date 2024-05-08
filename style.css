@@ -88,3 +88,11 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
 }
+label{
+    fonte-size:20px;
+}
+.checkbox{
+    midth:20px;
+    height:20px;
+    cursor:pointer:
+}
