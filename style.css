@@ -61,8 +61,8 @@ body{
     justify-content: center;
 }
 @media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-    flex-direction: row;
+.parametro-coluna-senha{
+flex-direction: row;
     
     }
     }
@@ -89,12 +89,12 @@ body{
     margin: 0;
 }
 label{
-    fonte-size:20px;
+    font-size: 20px;
 }
 .checkbox{
-    midth:20px;
-    height:20px;
-    cursor:pointer:
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 .barra{
     background-color: var(--fundo-senha);
@@ -105,8 +105,8 @@ label{
     height: 30px;
     width: 25%;
     background-color: #E71B32;
-position: relative;
-botton: 30px;
+    position: relative;
+    bottom: 30px;
 }
 .parametro-senha-textos{
     display: flex;
@@ -117,12 +117,12 @@ botton: 30px;
     width: 50%;
     background-color: #faf408;
     position: relative;
-    botton: 30px;
+    bottom: 30px;
 }
 .forte{
-    height:30px;
+    height: 30px;
     width: 100%;
     background-color: #00ff85;
     position: relative;
-    botton: 30px;
+    bottom: 30px;
 }
