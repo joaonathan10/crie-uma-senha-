@@ -6,7 +6,7 @@
     --fundo-texto: #001E40;
     --borda: #0075FF;
     --roboto-mono: 'Roboto Mono', monospace;
-    --roboto:'Roboto', sans-serif;
+    --roboto: 'Roboto', sans-serif;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -61,11 +61,11 @@ body{
     justify-content: center;
 }
 @media screen and (min-width: 768px) {
-.parametro-coluna-senha{
-flex-direction: row;
-    
-    }
-    }
+    .parametro-coluna__senha{
+    flex-direction: row;
+
+}
+}
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
@@ -115,7 +115,7 @@ label{
 .media{
     height: 30px;
     width: 50%;
-    background-color: #faf408;
+    background-color: #Faf408;
     position: relative;
     bottom: 30px;
 }
